@@ -13,13 +13,23 @@ package uts.if1.pkg10119036.alfinurizkya.no3;
  * Kelas    : IF-1
  * Deskripsi Program :
  */
-public class HardRock {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class HardRock extends Rnb implements PopRock, ProgressiveRock, PsychedelicRock {
+    public void genreHardRock(String artisName){
+        System.out.println(artisName+"adalah genre Hard Rock");
     }
-    
+
+    @Override
+    public void genrePopRock(String artisName){
+        System.out.println(artisName+"adalah genre Pop Rock");
+    }
+
+    @Override
+    public void genrePsychedelic(String artisName){
+        System.out.println(artisName+"adalah genre Psychedelic");
+    }
+
+    @Override
+    public void genreProgressive(String artisName) {
+        System.out.println(artisName+"adalah genre Progressive");
+    }
 }

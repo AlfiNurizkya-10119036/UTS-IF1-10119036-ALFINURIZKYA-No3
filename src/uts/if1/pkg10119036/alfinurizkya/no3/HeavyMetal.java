@@ -13,13 +13,7 @@ package uts.if1.pkg10119036.alfinurizkya.no3;
  * Kelas    : IF-1
  * Deskripsi Program :
  */
-public class HeavyMetal {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+    public interface HeavyMetal extends Punk{
+    public void genreHeavyMetal(String artisName);
 }

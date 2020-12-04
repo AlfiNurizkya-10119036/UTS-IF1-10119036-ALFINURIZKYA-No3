@@ -13,13 +13,7 @@ package uts.if1.pkg10119036.alfinurizkya.no3;
  * Kelas    : IF-1
  * Deskripsi Program :
  */
-public class Blues {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+    public interface Blues {
+    public void genreBlues(String artisName);
 }

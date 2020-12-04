@@ -13,13 +13,10 @@ package uts.if1.pkg10119036.alfinurizkya.no3;
  * Kelas    : IF-1
  * Deskripsi Program :
  */
-public class DeathMetal {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public class DeathMetal extends Metal{
+    public void genreDeathMetal(String artisName){
+        System.out.println(artisName+"adalah genre Death Metal");
     }
-    
 }
+

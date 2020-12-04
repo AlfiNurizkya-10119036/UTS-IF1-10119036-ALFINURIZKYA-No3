@@ -15,11 +15,15 @@ package uts.if1.pkg10119036.alfinurizkya.no3;
  */
 public class MusicGenre {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+     private String artisName;
+
+    public String getArtisName() {
+        return artisName;
     }
-    
+
+    public void setArtisName(String artisName) {
+        this.artisName = artisName;
+    }
+
 }
+

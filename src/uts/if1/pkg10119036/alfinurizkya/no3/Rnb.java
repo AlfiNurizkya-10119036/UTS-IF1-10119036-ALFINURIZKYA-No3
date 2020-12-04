@@ -13,13 +13,13 @@ package uts.if1.pkg10119036.alfinurizkya.no3;
  * Kelas    : IF-1
  * Deskripsi Program :
  */
-public class Rnb {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Rnb extends MusicGenre implements Blues, Jazz{
+    @Override
+    public void genreJazz(String artisName) {
+        System.out.println(artisName+"adalah genre Jazz");
     }
-    
+    @Override
+    public void genreBlues(String artisName) {
+        System.out.println(artisName+"adalah genre Blues");
+    }
 }
